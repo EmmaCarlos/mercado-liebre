@@ -1,0 +1,144 @@
+header{
+    background-color: #EAC926;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+
+header section{
+  margin: auto;
+}
+
+header figure{
+    width: 35vw;
+}
+header figure img{
+    height: 100%;
+}
+header form{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+}
+header form input{
+    border: none;
+    outline: none;
+}
+
+header form button{
+    border: none;
+    outline: none;
+}
+header nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#burger-menu{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    width: 100vw;
+}
+
+#burger-menu a{
+    background-color: #03264c;
+    color: #ffffff;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    border-radius: .25rem;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.show-mobile{
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    header{
+      justify-content: space-between;
+      padding: 0.3rem;
+    }
+    header figure{
+      max-width: 25vw;
+    }
+    header form{
+      width: 25vw ;
+      
+    }
+    header section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 35vw;
+      text-align: right;
+    }
+    #burger-menu{
+      display: none;
+    }
+    .show-mobile{
+    display: flex;
+    margin: 0 1rem
+    }
+    .show-mobile ul li{
+      margin: .3rem .5rem;
+    }
+    header nav ul{
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    header nav ul li a{
+      color: #000;
+    }
+  
+    #login_bar{
+      margin-left: auto;
+    }
+    .main-header-top-bar  {
+      margin: 0 0.5rem;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .main-header-top-bar  {
+      max-width: none;
+      margin: 0 2rem;
+      font-size: 1.1rem;
+    }
+    .show-mobile#login_bar{
+      max-width: 1200px;
+      margin: 0 3rem;
+      text-align: right;
+      margin-top: 2rem;
+      
+      margin-right: 2rem;
+      font-size: 1.1rem;
+
+    }
+    .show-mobile {
+      max-width: 1200px;
+      margin: 0 3rem;
+      text-align: left;
+      margin-top: 2rem;
+      
+      font-size: 1.1rem;
+      margin-left: 2rem;
+    }
+    .show-mobile li{
+      margin: o 1rem;
+    }
+    
+  }
+  

@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+}
+h3{
+    display: block;
+    margin: 0px;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 1vh;
+  }
+
+.main_product article{
+    margin: 0 1.3rem 1.2vh ;
+    background-color: #FFFFFF;
+   
+    border-radius: 10px;
+}
+.precio{
+    width: 25%;
+    font-size: 0.8rem;
+    
+}
+.descuento{
+    width: 50%;
+    font-size: 0.8rem;
+    color: #39b54a;
+    text-align: right;
+ 
+}
+.productos{
+    font-size: 0.8rem;
+    color: #666;
+    width: 100%;
+    margin-top: 0.9rem;
+    /*visibility: hidden;
+    transition: all .2s;*/
+}
+.main_product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main_product_descripcion{
+    border-top: solid #ebebeb 1px;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+  main section article i{
+    display: block ;
+    font-size: 16px ;
+    padding: 5px ;
+    width: 30px ;
+    height: 30px ;
+    border: 1px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ;
+    position: absolute;
+    top: -20%;
+    left: 80%;
+    }
+article img{
+    border-radius: 6px;
+}
+    
+@media (min-width:500px){
+    .main_product article{
+    max-width: 280px;
+}
+}
+@media (min-width:900px){
+    .main_product article{
+    max-width: 20%;
+    }
+}

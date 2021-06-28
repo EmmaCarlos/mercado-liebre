@@ -1,0 +1,32 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+html{
+    line-height: 1.10rem;
+    overflow-x: hidden;
+    width: 100vw;
+}
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+}
+main{
+    display: block;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+img{
+    border-style: none;
+}
+h3{
+    display: block;
+    margin: 9px;
+    font-weight: bold;
+    
+}

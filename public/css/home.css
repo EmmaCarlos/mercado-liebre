@@ -1,0 +1,46 @@
+
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box ;
+}
+
+html{
+  line-height: 1.10rem;
+  overflow-x: hidden;
+  width: 100vw;
+}
+body{
+  margin:0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+a{
+  text-decoration: none;
+  background-color: transparent;
+}
+img{
+  border-style: none;
+  width: 100%;
+}
+
+
+.banner{
+    width: 100%;
+    margin: 0;
+    border-style: none;
+  }
+
+  .titulares{
+    font-size: 1.5em;
+    margin:1.5vh 0 1vw 1vh;
+    font-weight: bold;
+    color: rgb(117, 115, 115); 
+  }
+
+
+
+
+
+

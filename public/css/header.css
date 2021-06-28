@@ -1,0 +1,179 @@
+header{
+  background-color: #EAC926;
+  width: 100vw;
+  padding: 16px;
+  font-size: 1em;
+}
+.logo{
+  width: 120px;
+}
+.main-header-top-bar{
+  width: 120px;
+  text-align: center;
+}
+
+.header_top{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+ padding-right: 1rem;
+}
+.search{
+  display: flex;
+    width: 50%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+.search input{
+  overflow: visible;
+  width: 90%; 
+  padding: 10px;
+  border: 0px;
+  border-radius: 6px;
+}
+header form button{
+  border: 0;
+  padding:1rem;
+  border-radius: 0.5rem;
+  text-align:center
+}
+.compra_en_cuotas{
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+.header_top_logo_search{
+  width: 100%;
+}
+
+header section{
+  margin: auto;
+}
+
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+#burger-menu{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#burger-menu a{
+    background-color: #03264c;
+    color: #ffffff;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    border-radius: .25rem;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.show-mobile{
+    display: none;
+  }
+  
+
+@media(min-width: 320px){
+  .main-header-top-bar{
+  width:40%;
+}
+} 
+
+  @media (min-width: 768px) {
+    header{
+      justify-content: space-between;
+      padding: 0.8rem;
+    }
+    .main-header-top-bar{
+      width:8rem;
+    }
+    
+
+    .compra_en_cuotas {
+    width: 33%;
+    margin-top: 0px;
+    text-align: right;
+    padding-top: 5px;
+  }
+  .search{
+    width: 40%;
+  }
+ .navegacion{
+  display: flex;
+  justify-content: space-between;
+ }
+   
+    #burger-menu{
+      display: none;
+    }
+    .show-mobile{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem
+    }
+    .show-mobile ul li{
+      margin: .3rem .5rem;
+    }
+    header nav ul{
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    header nav ul li a{
+      color: #000;
+    }
+  
+    #login_bar{
+      margin-left: auto;
+    }
+    .main-header-top-bar  {
+      margin: 0 0.5rem;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .main-header-top-bar  {
+      max-width: none;
+      margin: 0 2rem;
+      font-size: 1.1rem;
+    }
+    .show-mobile#login_bar{
+      max-width: 1200px;
+      margin: 0 3rem;
+      text-align: right;
+      margin-top: 2rem;
+      
+      margin-right: 2rem;
+      font-size: 1.1rem;
+
+    }
+    .show-mobile {
+      max-width: 1200px;
+      margin: 0 3rem;
+      text-align: left;
+      margin-top: 2rem;
+      
+      font-size: 1.1rem;
+      margin-left: 2rem;
+    }
+    .show-mobile li{
+      margin: o 1rem;
+    }
+    
+  }
+  

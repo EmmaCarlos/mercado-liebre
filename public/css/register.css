@@ -252,6 +252,8 @@ header nav{
   border: 0 solid;
   max-width: 700px;
   margin: 0px 10px;
+  float: left;
+  width: 36%;
 }
 .texto#fecha_nacimiento{
   margin-bottom: 20px;
@@ -288,6 +290,8 @@ header nav{
 }
 
 
+
+
 .texto{
   width: 100%;
     font-weight: bold;
@@ -309,59 +313,6 @@ header nav{
   width: 8%;
 }
 }
-/*
-#fecha{
-    position: relative;
-    top: -1vh;
-    display: block;
-    font-weight: bold;
-    
-}
-
-main fieldset article#perfil-de-usuario label{
-    display: block;
-    margin-left: 1vw;
-    width: 90%;
-    
-}
-
-
-main fieldset article#perfil-de-usuario{
-    font-weight: bold;
-    
-}
-#perfil-de-usuario section{
-  display: flex;
-  margin-left: 1vw;
-}
-.cuadro-intereses{
-    display: flex;
-    flex-direction: column;
-
-}
-.cuadro-intereses fieldset{
-  display: flex;
-  margin: 1vh;
-   
-}
-.cuadro-intereses input{
-  transform: scale(1.2);
-}
-.cuadro-intereses fieldset label{
-  margin-left: 2vw;
-}
-.inter{
-  font-weight: bold ;
-  margin-left: 1vw;
-  font-size: 1.1rem;
-}
-#foto_x{
-  margin-top: 1.2vh;
-}
-
-/*fin main*/
-
-/*footer*/
 
 footer{
   padding: 1rem;

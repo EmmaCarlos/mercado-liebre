@@ -125,7 +125,8 @@ header nav{
 
     .compra_en_cuotas {
     width: 33%;
-    margin-top: 0px;
+    margin-top: 0.8vh;
+    margin-right: 1vw;
     text-align: right;
     padding-top: 5px;
   }

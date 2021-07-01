@@ -294,6 +294,7 @@ header nav{
 
 
 .texto{
+  float: left;
   width: 100%;
     font-weight: bold;
     margin: 2vh 0;

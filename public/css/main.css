@@ -37,9 +37,19 @@ main{
     color: #666;
     width: 100%;
     margin-top: 0.9rem;
-    /*visibility: hidden;
-    transition: all .2s;*/
+    visibility: hidden;
+    transition: all .20s ease-in;
+   
 }
+.main_product article:hover{
+    box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+main section section :hover .productos{
+    font-size: 1rem;
+    visibility: visible;
+}
+
+
 .main_product{
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +75,11 @@ main{
     position: absolute;
     top: -20%;
     left: 80%;
+    }
+    footer i:hover{
+        color: #39b54a;
+        transform: scale(1.5);
+    
     }
 article img{
     border-radius: 6px;

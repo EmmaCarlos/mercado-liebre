@@ -264,6 +264,7 @@ header nav{
 }
 .fecha_nacimiento input{
   margin-top: 20px;
+  float: left;
 }
 
 #perfil-de-usuario{

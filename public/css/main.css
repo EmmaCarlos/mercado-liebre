@@ -1,65 +1,68 @@
-/*
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+}
+h3{
+    display: block;
+    margin: 0px;
+}
+
 main{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-main section{
-    display: flex;
-    flex-flow: column ;
-    justify-content: center;
-    
-}
-
-img{
-    display: flex;
-    justify-content: center;
-}
-
-.fas.fa-truck{
-    color: green;
-    padding-top: 0.3rem;
-    width: 2.3em;
-    height: 2.3rem;
-    border: .1rem solid green;
-    background-color: white;
-    border-radius: 3rem;
-    padding: 0.23rem;
-    position: relative;
-    left: 38vw;
-    top: -7vh;
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 1vh;
   }
 
-  main section{
-    display: block;
-    flex-flow: row wrap;
-    justify-content: center;
+.main_product article{
+    margin: 0 1.3rem 1.2vh ;
+    background-color: #FFFFFF;
+   
+    border-radius: 10px;
 }
-
-
-article figure{
-    border-bottom: 0.1rem solid #666;
-}
-.titulares{
-    width: 100vw;
-    font-size: .8rem;
-    position:relative ;
-    left:2vw;
-}
-
-
-.productos{
-    font-size: 1.4rem;
-    width: 100%;
-}
-
 .precio{
-    font-size: 1.1rem;
-    padding-top: 2vh;
+    width: 25%;
+    font-size: 0.8rem;
+    
+}
+.descuento{
+    width: 50%;
+    font-size: 0.8rem;
+    color: #39b54a;
+    text-align: right;
+ 
+}
+.productos{
+    font-size: 0.8rem;
+    color: #666;
+    width: 100%;
+    margin-top: 0.9rem;
+    visibility: hidden;
+    transition: all .20s ease-in;
+   
+}
+.main_product article:hover{
+    box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+main section section :hover .productos{
+    font-size: 1rem;
+    visibility: visible;
 }
 
-  */
 
+.main_product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main_product_descripcion{
+    border-top: solid #ebebeb 1px;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
   main section article i{
     display: block ;
     font-size: 16px ;
@@ -69,23 +72,26 @@ article figure{
     border: 1px solid #39b54a ;
     background-color: #FFF ;
     border-radius: 50% ;
-    position: relative;
-    right: -38vw;
-    top: -30px;
+    position: absolute;
+    top: -20%;
+    left: 80%;
     }
-    article{
-        box-shadow: 0 0 1rem 0 rgba(20, 20, 20, 0.3);
-        width: 50vw;
-        padding: 1rem;
-        background: #ebebeb;
-        display: block;
-        
-    }
-    .descuento{
-        width: 100%;
-        font-size: 1.1rem;
+    footer i:hover{
         color: #39b54a;
-        position: relative;
-        left: 13vw;
-        top: -7vw;
+        transform: scale(1.5);
+    
     }
+article img{
+    border-radius: 6px;
+}
+    
+@media (min-width:500px){
+    .main_product article{
+    max-width: 280px;
+}
+}
+@media (min-width:900px){
+    .main_product article{
+    max-width: 20%;
+    }
+}
